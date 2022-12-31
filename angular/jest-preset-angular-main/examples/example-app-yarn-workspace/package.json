@@ -1,0 +1,16 @@
+{
+  "name": "example-app-yarn-workspace",
+  "version": "13.0.0",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "private": true,
+  "scripts": {
+    "test": "yarn workspaces foreach run test",
+    "test-isolated": "yarn workspaces foreach run test-isolated",
+    "test-esm": "yarn workspaces foreach run test-esm",
+    "test-esm-isolated": "yarn workspaces foreach run test-esm-isolated"
+  }
+}

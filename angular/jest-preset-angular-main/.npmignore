@@ -1,0 +1,54 @@
+# Tests
+e2e
+examples
+
+# sources are inlined
+src
+!build/ngtsc/reflection/src
+!build/ngtsc/ts_compatibility/src
+
+# Development scripts
+scripts
+
+# Github Pages
+website
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# Dependency directories
+node_modules
+
+# Editor config
+.vscode
+.idea
+.editorconfig
+
+# CI
+.github
+
+# Eslint
+.eslintignore
+.eslintrc.js
+commitlint.config.js
+.prettierignore
+.prettierrc
+
+# Internal jest config
+jest.config.js
+
+# Tsconfig
+tsconfig.build.json
+tsconfig.eslint.json
+tsconfig.json
+tsconfig.spec.json
+
+# Others
+*.tgz
+.npmignore
+.npmrc
+.gitattributes
+.husky
+.yarn/*
+.yarnrc.yml
+renovate.json
